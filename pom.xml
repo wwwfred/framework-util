@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.wwwfred.framework</groupId>
 	<artifactId>framework-util</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	
 	<!-- 历史版本变更记录 -->
@@ -86,7 +86,7 @@
 		<!-- http end -->
 
 		<!-- log4j start -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>${slf4j.version}</version>
@@ -103,7 +103,7 @@
 			<version>${slf4j.version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.flume</groupId>
 			<artifactId>flume-ng-core</artifactId>
 			<version>${log4j.flume.version}</version>
