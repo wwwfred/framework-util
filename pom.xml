@@ -4,20 +4,13 @@
 	<groupId>net.wwwfred.framework</groupId>
 	<artifactId>framework-util</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	<packaging>jar</packaging>
+	
 	<!-- 历史版本变更记录 -->
 	<!-- -->
 
 	<dependencies>
 
-		<!-- servlet start -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-		<!-- servlet end -->
 		<!-- third json start -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
