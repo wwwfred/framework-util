@@ -17,7 +17,7 @@ public class LogUtil
     /** 测试日志LogTag */
     private static String LOGGER_TEST = PropertiesUtil.getValue(PROPERTIES_CONFIG_FILE_NAME, "logger_test", "TEST");
 
-    public static String LOG_DEFAULT_IMPL_CLASS = PropertiesUtil.getValue(PROPERTIES_CONFIG_FILE_NAME, "log_default_impl_class","com.teshehui.util.log.Log4j");
+    public static String LOG_DEFAULT_IMPL_CLASS = PropertiesUtil.getValue(PROPERTIES_CONFIG_FILE_NAME, "log_default_impl_class","net.wwwfred.framework.util.log.Log4j");
     
     private static Log log = getLog();
     
