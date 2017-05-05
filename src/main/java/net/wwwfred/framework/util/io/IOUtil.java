@@ -561,6 +561,15 @@ public class IOUtil
 			}
 		}
 		
+		// if URL is HTTPS protocol must verifyHttps
+		if(url.startsWith("https://"))
+		{
+			int start = url.indexOf("https://")+"https://".length();
+			int end = url.indexOf("/", start);
+			String host = end>0?url.substring(start,end):url.substring(start);
+			httsVerifier(host);
+		}
+		
 		// URL connection
 		HttpURLConnection con;
 		try {
